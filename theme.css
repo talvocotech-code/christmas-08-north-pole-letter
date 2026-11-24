@@ -1,0 +1,17 @@
+/* 08 · Letter from the North Pole — storybook parchment pages, washi tape, wax-seal red */
+:root{--bg:#2a120f;--ink:#fff3df;--ink-dim:rgba(255,243,223,.82);--accent:#e8b84a;--accent-ink:#2b1204;--panel:#f6ead2;--panel-line:rgba(179,38,44,.3);--radius:6px;
+ --f-display:'Playfair Display',Georgia,serif;--spark:#ffe9a8,#ffffff,#ff9aa8;--bloom:rgba(255,226,170,.85);--tint-bg:linear-gradient(180deg,rgba(40,14,10,.55),rgba(40,14,10,.9));--tint-max:.9;--burst-y:.55;--orn:var(--o-holly)}
+.opening::before{background:linear-gradient(180deg,rgba(30,10,8,.78) 0%,rgba(30,10,8,.35) 34%,rgba(0,0,0,0) 62%,rgba(30,10,8,.5) 100%)}
+.op-title{font-style:italic;font-weight:600;font-size:clamp(32px,10vw,44px)}
+.op-eyebrow{letter-spacing:.2em;line-height:1.7;font-size:10.5px}
+.panel{--ink:#3b1f16;--ink-dim:rgba(59,31,22,.82);--accent:#b3262c;--accent-ink:#fff7ea;--panel-line:rgba(179,38,44,.3);background:#f6ead2;color:#3b1f16;border:0;border-radius:4px;-webkit-backdrop-filter:none;backdrop-filter:none;rotate:-.7deg;padding-top:38px;
+ box-shadow:0 12px 30px rgba(0,0,0,.45),0 0 0 1px rgba(120,80,40,.25),inset 0 0 40px rgba(190,140,70,.18)}
+.sec:nth-of-type(even) .panel{rotate:.7deg}
+.panel::before{content:"";position:absolute;top:-11px;left:50%;width:96px;height:24px;margin-left:-48px;background:rgba(240,150,175,.85);rotate:-3deg;box-shadow:0 2px 4px rgba(0,0,0,.2);background-image:repeating-linear-gradient(90deg,transparent 0 6px,rgba(255,255,255,.25) 6px 8px)}
+.h{font-style:italic;font-weight:600;font-size:29px}
+.btn{border-radius:999px}.note,.cd div{border-radius:10px;background:rgba(255,255,255,.35)}
+.f input:not([type]),.f textarea{background:rgba(255,255,255,.55);color:#3b1f16}
+.choice input:checked+span{color:#fff7ea}
+.err{color:#a3281c!important}
+.art{color:#b3262c}
+.cd b{color:#b3262c}
